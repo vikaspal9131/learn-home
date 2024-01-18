@@ -10,6 +10,7 @@
   padding: 0;
   font-family: lexend;
   box-sizing: border-box;
+  
 }
 
 html,
@@ -77,24 +78,34 @@ body {
 .hero-left {
   height: 100%;
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: center;
 
+}
+
+.hero-left-contain{
+  width: 90%;
+  height: 90%;
+  
 }
 
 .hero-right {
   height: 100%;
   width: 50%;
   background-color: rgb(26, 255, 0);
+
+
 }
 
 .hero-left-section {
   height: 100%;
   width: 80%;
   display: flex;
+  color: #ffffff;
   flex-direction: column;
-  background-color: green;
+  justify-content: space-around;
+  /* background-color: green; */
 
 }
 
@@ -104,13 +115,23 @@ body {
 }
 
 .hero-left-btn button>i {
-  font-size: 25px;
+  font-size: 30px;
 }
+
+.btn2 button>i{
+  color: #f88703;
+  margin-right: 5px;
+ 
+}
+.btn1 button>i{
+  margin-right: 5px; 
+}
+
 
 .hero-left-btn {
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  width: 50%;
 
 }
 
@@ -118,6 +139,7 @@ body {
   background-color: black;
   color: #ffffff;
   display: flex;
+  
 
 }
 
@@ -128,4 +150,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.discription{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.disp1{
+
+  padding-right: 20px; 
+  border-right: 2px solid #ffffff;
+}
+.disp2{
+
+  padding-right: 20px; 
+  border-right: 2px solid #ffffff;
 }
