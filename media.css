@@ -208,7 +208,7 @@
 
  
   .nav-option {
-    width: 00%;
+    width: 1%;
   }
   
   .nav-log {
@@ -247,6 +247,7 @@
     font-size: 2rem;
     line-height: 2rem;
     text-align: center;
+    margin-top: 70px;
   }
   .hero-left-section p{
     font-size: 10px;
@@ -254,7 +255,7 @@
   }
 
   .hero-left-btn{
-    width: 60%;
+    width: 69%;
     margin-top: 12px;
   
   }
@@ -264,13 +265,18 @@
   }
   .btn1 button {
     font-size: 10px;
-    width: 80px;
+    width: 87px;
     height: 30px;
   }
   .btn2 button {
     font-size: 10px;
     width: 90px;
     height: 30px;
+    
+  }
+
+  .btn2 button i{
+    color: red;
   }
 
   .disp1{
