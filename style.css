@@ -9,7 +9,7 @@
   }
 
   50% {
-    transform: translatex(-13px);
+    transform: translateY(-13px);
   }
 
   100% {
@@ -28,20 +28,21 @@
 
 html,
 body {
-  width: 0%;
-  height: 0%;
+  width: 100%;
+  height: 100%;
 }
 
 
+/* home page start */
 
 .home-contener {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #1c4645;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .navbar {
@@ -228,12 +229,104 @@ body {
   transition: 300ms;
 }
 
-.test{
+
+/* home page end  */
+
+
+.reason-page{
   height: 100vh;
-  width: 100vw;
-  background-color: red;
+  width: 100%;
+  /* background-color: red; */
+  
 }
-.second-test{
-  height: 100vh;
+
+
+.reason-heading{
+  height: 10vh;
+  width: 100%;  
+  /* background-color: blue; */
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.reason-container{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.card{
+  width: 25%;
+  height: 80%;
+  background-color: aliceblue;
+  border-radius: 2vw;
+  display: flex;  
+  justify-content: center ;
+  align-items: center;
+  background: none;
+  -webkit-backdrop-filter: blur(10.3px);
+  border: 1px solid #ffffff4d;
+  box-shadow: 0 4px 30px #0000001a;
+}
+
+.card:hover{
+  box-shadow: 0 4px 30px #1c4645;
+  transition: 400ms;
+}
+.card-containt{
+  width: 20vw;
+  height: 40vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+
+}
+.card-icon{
+  font-size: 2.5vw;
+  width:4vw;
+  padding: 0.3vw 1vw;
+  color: white;
+  background-color: #1c4645;
+  border-radius: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-containt h4{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-containt p{
+  font-weight: 300;
+}
+
+.card-containt button {
+  border: none;
+  background: none; 
+}
+
+.card-btn button:hover{
+  transform: scale(1.1);
+  border-bottom:1px solid black ;
+  transition: 300ms;
+}
+.card-btn button {
+  font-weight: 700;
+}
+
+.reason-page-foot{
  
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
