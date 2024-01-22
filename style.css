@@ -161,6 +161,7 @@ body {
   background-color: #ff0000;
   color: white;
   transition: 300ms;
+
 }
 
 .btn2 button:hover i {
@@ -173,7 +174,9 @@ body {
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;outline: 0 !important;
+  border: none !important;
+  -moz-outline-style: none !important;
 }
 
 .discription {
@@ -221,6 +224,9 @@ body {
   border: none;
   border-radius: 0.6vw;
   animation: up-down-motion 4s infinite linear;
+  outline: 0 !important;
+  border: none !important;
+  -moz-outline-style: none !important;
 }
 
 .hero-right-btn button:hover {
@@ -317,6 +323,9 @@ body {
 }
 .card-btn button {
   font-weight: 700;
+  outline: 0 !important;
+  border: none !important;
+  -moz-outline-style: none !important;
 }
 
 .reason-page-foot{

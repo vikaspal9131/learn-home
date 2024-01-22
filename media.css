@@ -378,10 +378,8 @@
     font-size: 3vw;
   }
 
-  .card-btn button {
-    width: 100%;
-  }
   .card-btn button  {
+    width: 100%;
     animation: arowmove 5s infinite linear ;
   }
 
