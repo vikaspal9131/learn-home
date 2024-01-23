@@ -345,13 +345,13 @@ body {
   display: flex;
   justify-content:center;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .section1{
   width: 30%;
   height: 80%;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -368,8 +368,19 @@ body {
   width: 20px;
   height: 20px;
   border: none;
-  border-radius: 10px;
-  margin-left: 7vw;
+  border-radius: 15px;
+  margin-top: 2vh;
+  margin-left: 6vw;
+  color: white;
+  font-size: 15px;
+  background-color: #1c4645;
+}
+
+.bft p:hover{
+  color: #131372;
+}
+.bft button:hover{
+  transform: scale(1.1);
 }
 .section2{
   width: 30%;
